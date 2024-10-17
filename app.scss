@@ -1,0 +1,102 @@
+// app global css in SCSS form
+
+//For MainLayout
+
+.q-layout__section--marginal {
+    background-color: #1e1e2f; 
+    color: #fff;
+  }
+  
+  .toolbar-bg {
+    box-shadow: 0 3px 10px rgb(10, 10, 10);
+    max-width: 100%;
+    
+    
+  }
+
+  .q-toolbar{
+    margin-right: 10rem;
+}
+  
+  .q-page-container {
+    background-color: #1e1e2f;
+    color: white;
+  }
+  
+  .menu{
+    margin: 18px;
+  }
+
+  .menuholder{
+    margin-left: 53rem;
+}
+  
+.q-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    background-color: #1e1e2f;
+    box-shadow: 0 2px 10px rgb(253, 252, 252);
+    }
+  
+    .q-layout__section--marginal[data-v-18ca20c2] {
+      background-color: #1e1e2f;
+  }
+  
+//For IndexPage
+
+.q-card {
+    max-width: 40%;
+    margin: auto;
+  }
+  
+  .q-card__section--vert {
+    padding: 8px;
+}
+  canvas {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  strong {
+    color: black;
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Round button styles with animation */
+  .round-button {
+    border-radius: 50%;
+    padding: 20px;
+    border: 3px solid white;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .animated-button {
+    position: relative;
+    overflow: hidden;
+    animation: dark-grow 3.5s ease-in-out infinite;
+  }
+  
+  .q-card{
+      border-left: 0;
+      border-right: 0;
+      box-shadow: 0 1px 10px rgb(255, 147, 23);
+  }
+  
+  @keyframes dark-grow {
+    10% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+      background-color: rgba(0, 0, 0, 0);
+    }
+    100% {
+      box-shadow: 0 0 15px 5px rgba(247, 244, 244, 0.6);
+      background-color: rgb(255, 253, 253);
+    }
+  }
